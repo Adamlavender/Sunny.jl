@@ -15,6 +15,7 @@
 #
 # From the Julia prompt, load Sunny and also [GLMakie](https://docs.makie.org/)
 # for graphics.
+#tensor network stuff
 
 using Sunny, GLMakie
 
