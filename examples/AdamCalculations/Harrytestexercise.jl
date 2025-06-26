@@ -23,8 +23,8 @@ end
 J2 = 1.0
 # Build FCC crystal and system
 fcc = Sunny.fcc_crystal()
-view_crystal(fcc) # View the crystal structure
-
+fig1 = view_crystal(fcc) # View the crystal structure
+display(fig1) 
 ratios = [0.25, 0.5, 0.75] #Get J2 ratios
 sizes = 1:10
 
