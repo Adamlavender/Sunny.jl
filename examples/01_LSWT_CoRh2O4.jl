@@ -58,7 +58,8 @@ cryst = Crystal(latvecs, positions, 227; types=["Co"])
 # [`view_crystal`](@ref) launches an interface for interactive inspection and
 # symmetry analysis.
 
-view_crystal(cryst)
+fig_1 = view_crystal(cryst)
+display(fig_1)
 
 # ### Spin system
 
